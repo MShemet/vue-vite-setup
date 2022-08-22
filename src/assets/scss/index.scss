@@ -1,0 +1,32 @@
+@import './_colors';
+@import './_typography';
+
+body {
+  font-family: 'Noto Sans Display', sans-serif;
+  background-color: $color-white;
+  color: $color-black-900;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  width: 100%;
+
+  @include media('sm') {
+    max-width: 552px;
+  }
+
+  @include media('md') {
+    max-width: 704px;
+  }
+
+  @include media('lg') {
+    max-width: 960px;
+  }
+
+  @include media('xl') {
+    max-width: 1152px;
+  }
+}

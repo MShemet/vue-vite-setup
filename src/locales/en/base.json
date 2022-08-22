@@ -1,0 +1,16 @@
+{
+  "button": {
+    "get_now": "Get Now"
+  },
+  "layouts": {
+    "header": "header",
+    "footer": "footer"
+  },
+  "not_found": {
+    "title": "Oh Snap!",
+    "description": "Not everything can be as simple. Secure your Internet journey below..."
+  },
+  "text": {
+    "oops": "Whoops, looks like something went wrong"
+  }
+}
